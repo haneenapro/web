@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="app.css" href="../assets/css/app.css">
+    <title>Document</title>
+</head>
+
+<style>
+  .section-banner {
+    background-image: url(../assets/media/media-landing-bg.jpg);
+}
+
+.section-banner h1 {
+  color: white;
+}
+
+.section-banner .content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.section-subscribe {
+    background: url(../assets/media/ocean.jpg)no-repeat center;
+    background-size: cover;
+}
+
+
+.section-subscribe .content {
+  padding: 120px 0;
+}
+
+.section-subscribe h2 {
+  color: white;
+}
+
+.section-slider img {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+
+.carousel-caption {
+  color: black;
+}
+.carousel-indicators [data-bs-target]{
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  background: black;
+  border: 0;
+}
+
+.section-partner {
+  background: gray;
+}
+
+.section-partner .content {
+  text-align: center;
+}
+
+.section-partner .content img {
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+
+
+.img-fluid {
+  height: 500px;
+}
+
+.section-whiteboard .content p{
+  float: right;
+}
+
+.section-team {
+    background: url(../assets/media/team.png)no-repeat center;
+    background-size: cover;
+}
+
+
+.section-team .content {
+  padding: 120px 0;
+}
+
+.section-team h2 {
+  color:blue;
+}
+
+.section-hesitate {
+  background: url(../assets/media/greyish.webp)no-repeat center;
+  background-size: cover;
+  
+}
+
+.section-hesitate h2 {
+  color: white;
+}
+.section-hesitate button {
+  
+  width: 50;
+}
+
+.section-hesitate .content {
+  padding: 120px 0;
+}
+
+.section-footer{
+  background-color: gray;
+}
+.section-footer img{
+  border-radius: 50%;
+  float: right;
+}
+
+</style>
+
+<body>
+  <!-- Section navigation bar  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section   -->
+  <section class="section-banner">
+    <div class="container">
+     <div class="content">
+      <h1 class="text-center">
+        Anticipate and respond to the next big threat before it happens
+      </h1>
+     </div>
+    </div>
+  </section>
+
+  <!-- Section Saying  -->
+  <section class="section-saying text-center py-5">
+    <div class="container">
+      <h2 class="text-center mb-3">
+       See it, Know it, Fix it
+      </h2>
+
+      <button type="button" class="btn btn-outline-secondary" >Learn More </button>
+    </div>
+  </section>
+    
+  <!-- Section network  -->
+  <section class="section-network py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <img src="../assets/media/net.svg" alt="" class="img-fluid">
+
+        </div>
+
+        <div class="col-6">
+          <h2 >  
+            Anticipate Reinvent Troops
+          </h2>
+    
+          <p > 
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo odio sit officiis ea veniam laudantium. Obcaecati explicabo eos mollitia veritatis cumque. Doloribus nobis assumenda nihil molestiae quos consectetur dolorem animi!
+            Aliquid fugit, dolorem laudantium et exercitationem voluptatum magni necessitatibus nulla, iure rerum fuga? Doloremque veritatis id molestias veniam, repudiandae quibusdam iure laborum reiciendis dolores, consectetur non nihil necessitatibus maxime voluptas.
+          </p>
+        </div>
+      </div>
+  </section>
+
+  <!--next second-->
+  <section class="section-network py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <div class="col-6">
+        <h2 >  
+          Expert Intelligence as a Service 
+        </h2>
+  
+        <p > 
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo odio sit officiis ea veniam laudantium. Obcaecati explicabo eos mollitia veritatis cumque. Doloribus nobis assumenda nihil molestiae quos consectetur dolorem animi!
+          Aliquid fugit, dolorem laudantium et exercitationem voluptatum magni necessitatibus nulla, iure rerum fuga? Doloremque veritatis id molestias veniam, repudiandae quibusdam iure laborum reiciendis dolores, consectetur non nihil necessitatibus maxime voluptas.
+        </p>
+      </div>
+
+        <div class="col-6">
+          <img src="../assets/media/settin.svg" alt="" class="img-fluid">
+
+        </div>
+    </div>
+  </section>
+
+  <!--next third-->
+  <section class="section-network py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-4">
+          <img src="../assets/media/routers.svg" alt="" class="img-fluid">
+
+        </div>
+
+        <div class="col-6">
+          <h2 >  
+            100% Natural 
+          </h2>
+    
+          <p > 
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo odio sit officiis ea veniam laudantium. Obcaecati explicabo eos mollitia veritatis cumque. Doloribus nobis assumenda nihil molestiae quos consectetur dolorem animi!
+            Aliquid fugit, dolorem laudantium et exercitationem voluptatum magni necessitatibus nulla, iure rerum fuga? Doloremque veritatis id molestias veniam, repudiandae quibusdam iure laborum reiciendis dolores, consectetur non nihil necessitatibus maxime voluptas.
+          </p>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </section>
+
+  <!--Subscribe-->
+  <section class="section-subscribe">
+    <div class="container">
+      <div class="content">
+        <h2 class="text-center" >
+         Give your vulnerability program a big data booast
+        </h2>
+       </div>
+    </div>
+  </section>
+
+  <!--Sliderrr-->
+  <section class="section-slider py-5">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item text-center py-3 active">
+          <img src="../assets/media/rainbow.jpg" class="d-block mb-3 me-auto ms-auto" alt="..." $carousel-indicator-height: 100px;>
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+        <div class="carousel-item text-center py-3">
+          <img src="../assets/media/bubble.jpg" class="d-block mb-3 me-auto ms-auto" alt="..." $carousel-indicator-height: 100px;>
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+        <div class="carousel-item text-center py-3">
+          <img src="../assets/media/gray-building.jpg" class="d-block mb-3 me-auto ms-auto" alt="..." $carousel-indicator-height: 100px;>
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!--partner-->
+  <section class="section-partner py-5">
+    <div class="container">
+      <div class="content">
+        <h3 class="mb-5"> 
+          A few of our Clients 
+        </h3>
+
+        <div class="row">
+          <div class="col-md-3">
+            <img src="../assets/media/cola.png" class="img-fluid" alt="..." ;>
+          </div>
+          <div class="col-md-3">
+            <img src="../assets/media/fanta.svg" class="img-fluid" alt="..." ;>
+          </div>
+          <div class="col-md-3">
+            <img src="../assets/media/sprite.svg" class="img-fluid"  alt="..." ;>
+          </div>
+          <div class="col-md-3">
+            <img src="../assets/media/cola.png" class="img-fluid"   alt="..." ;>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!--whitepaper-->
+  <section class="section-whitepaper py-5">
+    <div class="container">
+    <div class="content">
+      <h3 class="mb-5"> 
+        Whitepapers
+      </h3>
+      <div class=" d-flex flex-row ">
+      <img src="../assets/media/bubble.jpg" class="img-fluid paper-height" alt="..." ;>
+      <div>
+      <h2> Best Practices Guide to Vulnerability Management </h2>
+      <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae cum libero animi assumenda recusandae numquam modi quod sint vel mollitia. Deleniti itaque adipisci numquam aperiam, nostrum consectetur reprehenderit dolores debitis.
+      Impedit nobis perferendis soluta mollitia quisquam minus, voluptas incidunt fuga unde expedita libero deleniti odit, sed sint, nemo inventore temporibus omnis nisi quaerat dolorem cum aspernatur obcaecati pariatur? Atque, cum?</p>
+      </div>
+      </div>
+  </section>
+     
+  <!--
+  <section class="section-whitepaper py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6" class="float-end">
+          <img src="../assets/media/A4.png" alt="" class="img-fluid border">
+          <h2> Blablaaaaaaaaa</h2>
+          <p class="float-end"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum nobis unde distinctio rem molestias numquam voluptas, dolorum accusantium saepe vel facilis autem ad provident nam impedit repudiandae mollitia quidem omnis!</p>
+          <button type="button" class="btn btn-outline-dark">Dark</button>
+        </div>
+
+        <div class="col-6">
+          <div class="col-md-3">
+          <h2 >  
+            Latest News 
+          </h2>
+          <img src="../assets/media/kr2.jpg" alt="" class="img-fluid ">
+          <p> 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, pariatur error nam autem itaque dolorum, illum nesciunt rem saepe odio quo voluptas aliquam minus excepturi reiciendis laboriosam consequatur voluptatum laborum.
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Meet the team-->
+  <section class="section-subscribe">
+    <div class="container">
+      <div class="content">
+        <h2 class="text-center" >
+         Meet Nop-Sec: We are transforming how organisations fix Vulnnerabilities and manage risk.
+        </h2>
+        
+       </div>
+    </div>
+  </section>
+
+    <!--Team
+  <section class="section-team py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <h2 class="text-center"> Don't Hesitate. Get Started Now. </h2>
+          <button type="button" class="btn btn-light">REQUEST A DEMO</button>
+
+
+
+        </div>
+      </div>
+    </section>
+  -->
+    <!--footer-->
+    <section class="section-footer py-5">
+      <div class="container">
+        <div class="row align-items-center"></div>
+        <p> Copyright@pvt.ltd</p>
+        <p class="center"> This is footer</p>
+        <div class="col-1">
+          <img src="../assets/media/fb.png" alt="" class="img-fluid">
+          <img src="../assets/media/twitter.jpg" alt="" class="img-fluid">
+          <img src="../assets/media/gmail.png" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>

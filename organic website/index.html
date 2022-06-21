@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="app.css" href="../assets/css/app.css">
+    <title>Document</title>
+
+    <style>
+      .nav-link {
+        color: white;
+      }
+
+      .section-navigation {
+        padding: 15px 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 2;
+      }
+      .starter{
+        background: url(../assets/media/vegetable.jpg) no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      .starter h1{
+        color: white;
+        align-self: center;
+      }
+
+      p{
+        align-self: center;
+      }
+
+      .starter .content{
+        height: 100vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width:fit-content;
+      }
+      .starter .content p {
+        color: white;
+      }
+
+      nav{
+        display: flex;
+        flex: d-flex justify-content-end;
+      }
+
+      button{
+        border-radius: 100%;
+        align-self: center ;
+      }
+      img .round{
+        height: 10px;
+        width: auto;
+      }
+
+      .section-round{
+        display: flex;
+        flex-direction: row;
+      }
+
+      .feel-better {
+      background: url(../assets/media/vegetable.jpg) no-repeat center;
+      background-size: cover;
+      position: relative;
+      }
+
+      .feel-better .content{
+        height: 100vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width:fit-content;
+      }
+      .feel-better h2{
+        align-self: center;
+        color: white ;
+      }
+      h4{
+        align-self: center;
+        color: green;
+      }
+
+      .feel-better p{
+        align-self: center;
+        color: white;
+      }
+
+      .section-deal{
+        background-color: rgb(211, 211, 211);
+      }
+
+      .section-footer{
+        background-color: gray;
+
+      }
+      .section-footer h4{
+        color: white;
+      }
+      .section-footer h2{
+        color: white;
+      }
+      .section-footer p{
+        color: white;
+      }
+      .section-deal img{
+        width: 100px;
+        height: auto;
+      }
+    </style>
+</head>
+
+<body>
+  
+
+  <section class="starter">
+    <section class="section-navigation">
+      <div class="container">
+        <div class="nav"class="p-2 bd-highlight" >
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">PAGES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">PAGES</a>
+            </li>
+          </ul>  
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="content">
+        <h1> 
+          ORGANIC 
+        </h1>
+
+        <p> 
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis
+          recusandae voluptas adipisci voluptatum harum, obcaecati quasi est nam doloribus 
+          vel iure porro, nostrum, enim earum dolorem. Voluptatibus, quasi minima!
+        </p>
+
+        <button type="button" class="btn btn-success" >
+          Buy Now 
+        </button>
+    </div>
+  </section>
+
+<!--startpage-->
+ <section class="text-center py-5">
+   <div class="container">
+    <h2 class=" mb-5"> Welcome to Gamba !!!</h2>
+
+    <div class="row align-items-center">
+      <div class="col-4">
+        <h2 >  
+          100% Natural
+        </h2>
+  
+        <p > 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eum quas harum modi soluta voluptatum eveniet saepe. Et, iure optio ipsam consectetur, consequatur veniam minus quia commodi, cumque amet eum!
+        </p>
+
+        <h2 >  
+          Always Fresh
+        </h2>
+  
+        <p > 
+         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi vitae neque, animi, recusandae beatae possimus, eligendi impedit nulla amet itaque asperiores corporis iure sapiente cum natus magni! Inventore, est facere!
+        </p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">
+            1 of 3
+          </div>
+          <div class="col-md-auto">
+            Variable width content
+          </div>
+          <div class="col col-lg-2">
+            3 of 3
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            1 of 3
+          </div>
+          <div class="col-md-auto">
+            Variable width content
+          </div>
+          <div class="col col-lg-2">
+            3 of 3
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" class="round">
+        <img src="../assets/media/veg-round.jpg" alt="..." class="img-fluid">
+      </div>
+
+      <div class="col-4">
+        <h2 >  
+          100% Natural
+        </h2>
+  
+        <p > 
+          ni necessitatibus nulla, iure rerum fuga? Doloremque veritatis id molestias veniam, repudiandae quibusdam iure laborum reiciendis dolores, consectetur non nihil necessitatibus maxime voluptas.
+        </p>
+
+        <h2 >  
+          Always Fresh
+        </h2>
+  
+        <p > 
+          ni necessitatibus nulla, iure rerum fuga? Doloremque veritatis id molestias veniam, repudiandae quibusdam iure laborum reiciendis dolores, consectetur non nihil necessitatibus maxime voluptas.
+        </p>
+      </div>
+    </div>
+
+   </div>
+ </section>
+
+  <!--feel better-->
+  <section class="feel-better">
+    <div class="container">
+      <div class="content">
+        <h4 class="text-center" >
+         Eat Better
+        </h4>
+        <h2 class="text-center"> 
+          Feel Better 
+        </h2>
+        <p class="text-center">
+          You are going to feel great. This is a great opportunity. Don't miss out.
+        </p>
+
+        <button type="button" class="btn btn-success" >
+          Show Now 
+        </button>
+       </div>
+    </div>
+
+  </section>
+
+  <!--Deal Today-->
+  <section class=""section-deal> 
+    <h2> Deal Today </h2>
+    <img src="../assets/media/veg-round.jpg" alt="" class="img-fluid">
+    <h4> Organic Soup Mix Soak</h4>
+    <p>
+      neque nemo totam delectus labore error voluptatum expedita nesciunt iure ullam ducimus accusamus?
+      - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur obcaecati cupiditate, 
+      - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur obcaecati cupiditate, 
+      - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur obcaecati cupiditate, 
+      <button type="button" class="btn btn-success">
+        Add to Cart
+      </button>
+      <img src="../assets/media/drink.PNG" alt="">
+      <img src="../assets/media/drink2.PNG" alt="">
+      <img src="../assets/media/drink3.PNG" alt="">
+
+    </p>
+  </section>
+
+  <!--Footer-->
+  <section class="section-footer">
+    <h2> Gamba </h2>
+
+    <div class="col-3">
+      <h4> Contact Us </h4>
+        <p> My Streets.Baluwatar Kathmandu</p>
+        <p> 01-3434123123 </p>
+        <p> 01-2323231212 </p>
+        <p> zxvbnm@hotmail.com </p>
+        <p> </p>
+      <h4> Categories </h4>
+      <h4> WIDGETS </h4>
+      <h4> Gallery </h4>
+    </div>
+
+    <div class="col-3">
+      <h4> Contact Us </h4>
+        <p> My Streets.Baluwatar Kathmandu</p>
+        <p> 01-3434123123 </p>
+        <p> 01-2323231212 </p>
+        <p> zxvbnm@hotmail.com </p>
+        <p> </p>
+      <h4> Categories </h4>
+      <h4> WIDGETS </h4>
+      <h4> Gallery </h4>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-2">
+        1 of 3
+      </div>
+      <div class="col-md-auto">
+        Variable width content
+      </div>
+      <div class="col col-lg-2">
+        3 of 3
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        1 of 3
+      </div>
+      <div class="col-md-auto">
+        Variable width content
+      </div>
+      <div class="col col-lg-2">
+        3 of 3
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-5">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    </div>
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>

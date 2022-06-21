@@ -1,0 +1,120 @@
+/*System Dark */
+
+$primary: #9CCAFF;
+$on-primary: #003259;
+$primary-container: #00497E;
+$on-primary-container: #CFE4FF;
+$secondary: #BBC8DB;
+$on-secondary: #253140;
+$secondary-container: #3B4857;
+$on-secondary-container: #D7E4F8;
+$tertiary: #D6BEE4;
+$on-tertiary: #3B2948;
+$tertiary-container: #52405F;
+$on-tertiary-container: #F3DAFF;
+$error: #FFB4A9;
+$error-container: #930006;
+$on-error: #680003;
+$on-error-container: #FFDAD4;
+$background: #1B1B1B;
+$on-background: #E2E2E6;
+$surface: #1B1B1B;
+$on-surface: #E2E2E6;
+$surface-variant: #42474E;
+$on-surface-variant: #C3C7D0;
+$outline: #8D9199;
+$inverse-on-surface: #1B1B1B;
+$inverse-surface: #E2E2E6;
+$inverse-primary: #0061A5;
+$shadow: #000000;
+
+
+/* Effect Styles: Dark*/
+
+Elevation-01
+box-shadow: 0px 1px 2px 0px #0000004D, 0px 1px 3px 1px #00000026, 0px 4px 4px 0px #00000040;
+
+Elevation-02
+box-shadow: 0px 1px 2px 0px #0000004D, 0px 2px 6px 2px #00000026;
+
+Elevation-03
+box-shadow: 0px 1px 3px 0px #0000004D, 0px 4px 8px 3px #00000026;
+
+Elevation-04
+box-shadow: 0px 2px 3px 0px #0000004D, 0px 6px 10px 4px #00000026;
+
+Elevation-05
+box-shadow: 0px 4px 4px 0px #0000004D, 0px 8px 12px 6px #00000026;
+
+//-----------------------------TONAL PALETTES----------------------------------------------------------------------------//
+
+//primary
+$primary0: #000000;
+$primary10: #001D36 ;
+$primary20: #003259 ;
+$primary30: #00497E ;
+$primary40: #0061A5 ;
+$primary50: #007ACD ;
+$primary60: #3195EB ;
+$primary70: #5FB0FF ;
+$primary80: #9CCAFF ;
+$primary90: #CFE4FF ;
+$primary95: #E8F1FF ;
+$primary99: #FCFCFF ;
+$primary100: #FFFFFF ;
+
+//secondary
+
+$secondary0 : #000000 ; 
+$secondary10 : #101C2B ;    
+$secondary20 : #253140 ;    
+$secondary30 : #3B4857 ;    
+$secondary40 : #535F70 ;    
+$secondary50 : #6B788A ;    
+$secondary60 : #8592A4 ;    
+$secondary70 : #9FACBF ;    
+$secondary80 : #BBC8DB ;    
+$secondary90 : #D7E4F8 ;    
+$secondary95 : #E8F1FF ;    
+$secondary99 : #FCFCFF ;    
+$secondary100 : #FFFFFF ;    
+
+
+//neutral
+$neutral0: #000000 ;
+$neutral10: #1B1B1B ;
+$neutral20: #2F3033 ;
+$neutral30: #46474A ;
+$neutral40: #5D5E61 ;
+$neutral50: #76777A ;
+$neutral60: #909194 ;
+$neutral70: #ABABAE ;
+$neutral80: #C6C6CA ;
+$neutral90: #E2E2E6 ;
+$neutral95: #F1F0F4 ;
+$neutral99: #FDFCFF ;
+$neutral100: #FFFFFF ;
+
+
+
+
+//neutral variant
+$neutral-variant0: #000000 ;
+$neutral-variant10: #171C22 ;
+$neutral-variant20: #2C3137 ;
+$neutral-variant30: #42474E ;
+$neutral-variant40: #5A5F66 ;
+$neutral-variant50: #73777F ;
+$neutral-variant60: #8D9199 ;
+$neutral-variant70: #A7ABB3 ;
+$neutral-variant80: #C3C7D0 ;
+$neutral-variant90: #DFE3EC ;
+$neutral-variant95: #EDF1FA ;
+$neutral-variant99: #FCFCFF ;
+$neutral-variant100: #FFFFFF ;
+
+
+
+
+
+

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="app.css" href="../assets/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<style>
+
+.nav-link {
+        color: rgb(0, 0, 0);
+        padding-right: 20px;
+      }
+
+      .navbar-light .navbar-nav .nav-link{
+        padding-right: 30px;
+      }
+      .starter{
+        background: url(../assets/media/drop.jpg) no-repeat ;
+        background-size: cover;
+        position: relative;
+      }
+     .starter:after {
+        background: rgba(0, 0, 0, 0.45);
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+      }
+      
+
+
+      .starter .content{
+        height: 100vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+        width:fit-content;
+      }
+
+      .btn-warning{
+        border-radius: 0;
+        width: 212px;
+        margin-right: 20px;
+      }
+      .warningbtn{
+        margin: 30px;
+      }
+      .contactbtn{
+        margin: 30px;
+      }
+      .btn-light{
+        border-radius: 0;
+        width: 212px;
+
+      }
+      .btn-info{
+        border-radius: 0;
+      }
+      .navbar, .landing, .section-cards {
+        position: relative;
+        z-index: 2;
+      }
+      
+      .logo{
+        width: 20px;
+        height:auto;
+      }
+
+      .media img{
+        border-radius: 20px;
+        height: 400px;
+        float: right; 
+      }
+
+      .sizze{
+        height: 575px;
+        width: auto;
+      }
+
+      .FAQ{
+        margin: 30px;
+      }
+
+      .xyzzz{
+        padding: 50px;
+      }
+
+      .section-footer{
+        background: url(../assets/media/drop.jpg) no-repeat ;
+        background-size: cover;
+        position: relative;
+      }
+      .footer-part1{
+        margin: 130px;
+      }
+      .footer-part2{
+      }
+      .clr{
+        color:white;
+      }
+
+      .clrgray{
+        color: gray;
+      }
+      .ht{
+        height:100%;
+        border-radius: 10px;
+        padding: 50px;
+      }
+      .lnk{
+        text-decoration: none;
+        color: DodgerBlue;
+        font-weight: bold;
+      }
+      .size{
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      li.limg{
+        margin-bottom: 40;
+        list-style: none;
+        background-image: url("../assets/media/blue-tick.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 40px;
+      }
+      .section-accomplishment{
+        margin: 262px;
+      }
+      .form-input{
+        align-self: center;
+      }
+      .nav-item{
+        font-size:14px;
+      }
+      h1{
+        font-size: 48px;
+      }
+      .displayd{
+        font-size: 24px;
+      }
+      .section-list{
+        margin-top: 238px;
+        margin-bottom: 140px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+      }
+      h3{
+        font-size: 20px;
+      }
+      h2{
+        font-size: 32px;
+      }
+      h4{
+        font-size: 35px;
+      }
+     
+      .btn-info .qwe{
+        align-self: center;
+        width: 212px;
+      }
+      h5{
+        font-size: 25px;
+        font-weight: normal;
+      }
+      h6{
+        font-size: 23px;
+      }
+      .section-cards{
+        margin-top: 180px;
+        margin-bottom: 68px;
+        padding-bottom: 20px;
+      }
+      .section-second-cards{
+        margin: 35px;
+      }
+      .btn-primary .styled{
+        margin: 15px;
+      }
+      .lht{
+        margin-bottom: 40px;
+      }
+      .form-input{
+        height:55px;
+        width: 560px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .btn-info {
+        margin-top: 30px;
+        margin-bottom: 100px;
+      }
+      .nav{
+        margin-left: 200px;
+      }
+      .navbar-light .navbar-nav .nav-link {
+        color: white;
+      }
+      .btn-outline-light{
+        border-radius: 0px;
+        width: 212px;
+      }
+      p{
+        margin-top: 45px;
+        margin-bottom: 45px;
+      }
+      .cpad{
+        padding: 50px;
+      }
+      ul{
+        padding: 0px;
+      }
+      .nmn{
+        padding-bottom: 30px;
+      }
+      .inputspace{
+        margin-bottom: 30px;
+      }
+/*
+      img{
+        border-radius: 50%;
+      } */
+</style>
+
+<body>
+ 
+  <section class="starter">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        
+          <div class="logo">
+            <img src="../assets/media/zercurity.png" width="210px"> 
+          </div>
+          <div class="nav justify-content-center">
+            <ul class="nav justify-content-center">
+              <li class="nav-item w3-bar-item w3-button">
+                <a class="nav-link active clr w3-bar-item w3-button" aria-current="page" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link clr" href="#">OSQUERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link clr" href="#">DOCS</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item clr">
+                <a class="nav-link clr" href="#">LOGIN</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-light">Create Account</button>
+              </li>
+            </ul>
+          </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+  <section class="landing page"> 
+    <div class="container">
+      <div class="content"> 
+        <div class="row">
+          <div class="col-6 clr"> 
+            <h1> Real-Time Monitoring Your Infrastructure  </h1>
+            <p class="displayd"> Manage applications. Intorrogate assets <br> using SQL. Guarantee compliance.</p>
+            <button type="button" class="btn btn-warning"><b>Get Started </b></button>
+            <button type="button" class="btn btn-outline-light"> <b>Contact Us </b></button>
+
+          </div>
+
+          <div class="col-6 media"> 
+              <img src="../assets/media/blue-boys.png" alt="" class="img-fluid rounded float-end">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-cards">
+    <div class="container overflow-hidden">
+      <div class="row ">
+        <div class="col">
+          
+            <div class="border bg-light ht cpad">
+              <img src="../assets/media/tick.png" alt=".." class="rounded mx-auto d-block" height="130px">
+              <h6 class="text-center"> Block Applications </h6>
+              <p class="text-center clrgray"> Manage applications. Intorrogate assets using SQL. Guarantee compliance. 
+                Manage applications. Intorrogate assets using SQL. Guarantee compliance.
+              </p>
+              <p class="text-center more"><a href="#" class="lnk" >Read More </a> </p>            
+            </div>
+            </div>
+
+            <div class="col">
+          
+              <div class="border bg-light ht cpad">
+                <img src="../assets/media/rout.png" alt=".." class="rounded mx-auto d-block" height="130px">
+                <h6 class="text-center"> Intorrogate your Infrastructure </h6>
+                <p class="text-center clrgray"> Manage applications. Intorrogate assets using SQL. Guarantee compliance. 
+                  Manage applications. Intorrogate assets using SQL. Guarantee compliance.
+                </p>
+                <p class="text-center"><a href="#" class="lnk" >Read More </a> </p>
+              
+              </div>
+              </div>
+
+              <div class="col">
+          
+                <div class="border bg-light ht cpad">
+                  <img src="../assets/media/bell.png" alt=".." class="rounded mx-auto d-block" height="130px">
+                  <h6 class="text-center"> Set alerts </h6>
+                  <br>
+                  <p class="text-center clrgray"> Manage applications. Intorrogate assets using SQL. Guarantee compliance. 
+                    Manage applications. Intorrogate assets using SQL. Guarantee compliance.
+                  </p>
+                  <p class="text-center"><a href="#" class="lnk" >Read More </a> </p>
+                
+                </div>
+                </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+  <section class="section-list py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <div class="col">
+        <h4 class="lht">  
+          Get Peace of Mind, knowing <br> you can guarantee compliance 
+          
+        </h4>
+
+        <ul>
+          <li class="limg clrgray lht">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+          <li class="limg clrgray lht">Quo odio sit officiis ea veniam laudantium. Obcaecati explicabo</li>
+          <li class="limg clrgray lht">eos mollitia veritatis cumque. Doloribus nobis assumenda nihil molestiae</li>
+          <li class="limg clrgray lht">quos consectetur dolorem animi! Aliquid fugit, </li>
+        </ul>  
+         
+         <h5 class="clrgray lht">
+           Get Up and run in <a href="#" class="lnk"> 5 minutes </a> . No commitment.
+         </h5>
+      </div>
+
+      <div class="col">
+        <img src="../assets/media/people.PNG" alt="" class="img-fluid rounded float-end">
+
+      </div>
+      </div>
+      </div>
+    </section>
+
+  <section class="FAQ">
+    <div class="container">
+      <div class="row align-items-center">
+      <div>
+    <img src="../assets/media/comments-solid.svg" alt=".." class="rounded mx-auto d-block" width="50px">
+    <h4 class="text-center"> Frequently Asked Questions </h4>
+    <p class="text-center clrgray"> You can send email with your questions <br> and we'll give your answer</p>
+  </div>
+  </div>
+  </div>
+  </section>
+
+  <section class="section-second-cards">
+    <div class="container overflow-hidden">
+      <div class="row gx-5 size">
+        <div class="col">
+          
+            <div class="border bg-light ht">
+              <img src="../assets/media/leaf.svg" alt=".." class="rounded mx-auto d-block" height="66px">
+              <h3 class="text-center"> What is Zercurity? </h3>
+
+              <p class="text-center clrgray">
+                Zercurity is a hosted service. It provides a secure, managed and centralised platform...
+              </p>
+              
+              <p class="text-center"><a href="#" class="lnk" >Show More </a> </p>
+            
+            </div>
+            </div>
+
+            <div class="col">
+          
+              <div class="border bg-light ht">
+                <img src="../assets/media/hash.svg" alt=".." class="rounded mx-auto d-block" height="66px">
+                <h3 class="text-center"> Who is Zercurity for? </h3>
+                <p class="text-center clrgray"> 
+                  Zercurity is a hosted service. It provides a secure, managed and centralised platform...
+                </p>
+                <p class="text-center"><a href="#" class="lnk" >Show More </a> </p>
+              
+              </div>
+              </div>
+
+              <div class="col">
+          
+                <div class="border bg-light ht">
+                  <img src="../assets/media/cat-face.svg" alt=".." class="rounded mx-auto d-block" height="66px">
+                  <h3 class="text-center"> Is my data secure? </h3>
+                  <p class="text-center clrgray"> 
+                    Zercurity is a hosted service. It provides a secure, managed and centralised platform...
+                  </p>
+                  <p class="text-center"><a href="#" class="lnk" >Show More </a> </p>
+                
+                </div>
+                </div>      
+      </div>
+        <div class="d-grid gap-2 col-3 mx-auto ">
+          <button class="btn btn-primary styled" type="button" >SHOW MORE</button>
+          
+        </div>
+    </div>
+  </section>
+
+  <section class="section-accomplishment">
+    <div class="container">
+      <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+        <div class="col">
+          <div> <h4>Zercurity Technology </h4></div>
+        </div>
+        <div class="col">
+          
+        </div>
+        <div class="col">
+          <div class="p-3 ">
+            <h4>100% </h4>
+            <h6 class="clrgray"> Saas Technology</h6>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 ">
+            <h4>100,000 </h4>
+            <h6 class="clrgray"> Endpoints per Tenant</h6>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 ">
+            <h4>100+ </h4>
+            <h6 class="clrgray"> Threat Intel Sources 
+
+            </h6>
+          </div>
+        </div>
+        <div class="col">
+          
+        </div>
+        <div class="col">
+         
+        </div>
+        <div class="col">
+          <div class="p-3 ">
+            <h4>124</h4>
+            <h6 class="clrgray"> Active Projects </h6>
+            </div>
+        </div>
+        <div class="col">
+          <div class="p-3 ">
+            <h4>1400+ </h4>
+            <h6 class="clrgray"> Built in queries </h6>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3"> 
+            <h4>200+ </h4>
+            <h6 class="clrgray"> Customers </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="section-footer">
+  <section class="footer-part1">
+    <div class="FAQ">
+      <div class="container">
+        <div class="row align-items-center">
+        <div>
+      <img src="../assets/media/email-logo.svg" alt=".." class="rounded mx-auto d-block nmn" width="50px">
+
+      <h2 class="text-center clr"> Stay Updated! </h2>
+      
+      <div class="form-input d-grid gap-2 col-2 mx-auto">
+        <input type="text" id="fname" name="fname" size="50" placeholder="Your Email " class="form-input inputspace"><br><br>
+
+      </div>
+      <div class="d-grid gap-2 col-2 mx-auto">
+        <button class="btn btn-info qwe" type="button" ><b> SUBSCRIBE </b></button>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  
+  <section class="footer-part2">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col clr">
+        <ol class="nav">
+          <li class="nav-item"><a href="" class="nav-link pl-0 clr"><i class="fa-brands fa-twitter"></i></a></li>
+          <li class="nav-item"><a href="" class="nav-link clr"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li class="nav-item"><a href="" class="nav-link clr"><i class="fa-solid fa-gear"></i></a></li>
+          <li class="nav-item"><a href="" class="nav-link clr"><i class="fa-solid fa-file-lines"></i></a></li>
+        </ol>
+      </div>
+      <div class="col clr">
+        <p  class="text-center"> <small> @2018 Zercurity. All Rights Reserved. </small> </p>
+      </div>
+      <div class="col clr">
+        <p class="text-end"> <small>hello@zercurity.com </small></p>
+      </div>
+    </div>
+  </section>
+  </section>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>

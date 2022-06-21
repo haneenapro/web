@@ -1,0 +1,46 @@
+
+h1{
+	text-align : center; font-size: 14px;
+}
+
+h2{
+	text-align : right; font-family: verdana, Geneva, sans-serif;
+
+}
+
+h3{
+	color: #ff0000; border: thin dotted #333333;
+}
+
+h4{
+	background-color: green; text-decoration-color: #006600; 
+
+}
+
+h5{
+	font-style: italic; text-decoration-line: underline; 
+}
+
+p{
+	width: 500px;
+}
+
+img{
+	width: 200px;
+	height:225px;
+	border-radius: 25px;
+}
+
+a{
+	color: #6600ff;
+	text-decoration: none;
+
+}
+a : hover {
+	text-decoration-line: underline; 
+	color: #ff6600;
+}
+
+a : link{
+	color: red;
+}

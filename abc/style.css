@@ -1,0 +1,274 @@
+body{
+    background-color: #F8F8F8;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+img{
+    padding-right: 20px;
+}
+.section-title{
+}
+
+.about{
+    background-color: #FCFCFC;
+}
+
+.person-name{
+    font-size: 22px;
+    font-weight: 600px;
+}
+
+img{
+    height: 80px;
+}
+
+.section-body{
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    padding: 24px, 0px, 24px, 0px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.user-profile{
+   padding-left: 24px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   display: flex;
+   align-items:center;
+}
+.user-content{
+    display: flex;
+}
+
+.user-info{
+    padding-left: 25px;
+    padding-bottom: 24px;
+}
+.item{
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+.basic-information .item .label {
+    flex: 0 0 272px;
+    max-width: 300px;
+}
+.basic-information .item .value {
+    max-width: 1064px;
+}
+.label{
+    width: 272px;
+}
+.value{
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+.value2{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+nav{
+    border-bottom: 2px solid #E2E2E6;
+}
+ul{
+    padding-left: 0px;
+}
+
+.active{
+    border-bottom: 2px solid #0D84D9;
+    color: #0D84D9;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    direction: column;
+}
+
+i.fa-solid.fa-circle {
+    font-size: 6px;
+    margin-right: 12px;
+    margin-left: 12px;
+    line-height: 20px;
+}
+
+i.fa-regular.fa-user {
+    line-height: 20px;
+    margin-right: 12px;;
+}
+
+i.fa-regular.fa-envelope{
+    margin-right: 4px;
+}
+
+i.fa-solid.fa-phone{
+    margin-right: 4px;
+}
+.meta-item {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+.meta-item:after {
+    content: "";
+    display: block;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: black;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.meta-item:last-child:after {
+    display: none;
+}
+
+.user-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.meta{
+    display: flex;
+}
+
+.panel {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+h3{
+    font-size: 22px;
+    margin-bottom: 4px;
+    line-height: 28px;
+}
+.user-info li{
+    list-style-type: none;
+    margin-right: 20px;
+    display: inline;
+}
+
+
+.style-link{
+    height: 44px;
+}
+.list-info{
+    display: flex;
+
+}
+.list-info-label{
+    float: left;
+    width: 300px;
+    margin-bottom: 12px;
+}
+
+.list-info-value{
+    float: right;
+    width: auto;
+}
+
+.label-password{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+
+.input-field{
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 453px;
+    height: 36px;
+    color: #FCFCFC;
+}
+input{
+    background-color: #;
+}
+::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    width: 421px;
+    color: #C6C6CA;
+    padding-left: 24px;
+  }
+
+::before {
+    margin-right: 4px;
+}
+
+.basic-information {
+    margin-top:25px;
+    margin-left: 24px;
+}
+
+.basic-information .item {
+    display: flex;
+    margin-bottom: 12px;
+    line-height: 24px;
+}
+
+.basic-information .item .label {
+    flex: 0 0 200px;
+    max-width: 200px;
+}
+
+.basic-information .item .value {
+    flex: 1;
+}
+
+h1{
+    line-height: 32px;
+    margin-top: 33px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.section-password{
+    padding-top: 24px;
+    padding-left: 24px;
+}
+.box-input{
+    margin-bottom: 16px;;
+}
+
+.tab {
+    overflow: hidden;
+    padding-left: 24px;
+  }
+  
+  .tab button {
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    font-weight: 600;
+    background: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+  }
+  
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab button.active {
+border: none;
+    border-bottom: 2px solid #0D84D9;
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0D84D9;
+    letter-spacing: 0.1px;
+    line-height: 24px; 
+ }
+  
+   

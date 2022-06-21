@@ -1,0 +1,14 @@
+
+h1{
+	al
+}
+
+
+
+
+
+heading 1 : alignment - center, size of characters : 14px
+heading 2 : alignment - right , family of fonts - verdana, Geneva, sans-serif
+heading 3 : color - red (hex), thin soldi border of color #333333
+heading 4 : background color : green (hex), text color : #006600
+heading 5 : italic, and underline

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="app.css" href="../assets/css/app.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+  <section class="section-profile">
+    <div class="section-title">
+      <h1>
+        My profile
+      </h1>
+    </div>
+
+    <div class="section-body">
+      <div class="user-profile">
+        <div class="user-media">
+          <img src="assets/media/girl-logo.png" alt="User image">
+        </div>
+
+        <div class="user-content">
+          <h3>
+            Jessica Brown
+          </h3>
+          
+          <div class="meta">
+            <div class="meta-item">
+              <i class="fa-regular fa-circle-user"></i> <span>Super Admin</span>
+            </div>
+
+            <div class="meta-item">
+              <i class="fa-regular fa-envelope"></i><span>mail@dummymail.com</span>
+            </div>
+
+            <div class="meta-item">
+              <i class="fa-solid fa-phone"></i><span> 9812345678 </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">About</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Security</button>
+      </div>
+      
+
+      <div id="London" class="basic-information tabcontent">
+        <div class="item">
+          <div class="label">
+            Name
+          </div>
+
+          <div class="value">
+            Jessica Brown
+          </div>
+        </div>
+        <div class="item">
+          <div class="label">
+            Username
+          </div>
+
+          <div class="value">
+            JessicaBrown@crowtech
+          </div>
+        </div>
+        <div class="item">
+          <div class="label">
+            Contact NUmber
+          </div>
+
+          <div class="value">
+            985632147
+          </div>
+        </div>
+        <div class="item">
+          <div class="label">
+            Email Address
+          </div>
+
+          <div class="value">
+            JessicaBrown@crowtech.com
+          </div>
+        </div>
+        <div class="item">
+          <div class="label">
+            Job Title
+          </div>
+
+          <div class="value">
+            Support officer
+          </div>
+        </div>
+        
+      </div>
+
+      
+
+      <div id=" Paris" class="section-password tabcontent" > 
+        <div>
+          <div class="label-password"> Current password </div>
+          <div class="input-field"> <input type="text" placeholder="Enter current password"> </div>
+        </div>
+
+        <div>
+          <div class="label-password"> New password </div>
+          <div class="input-field"> <input type="text" placeholder="Enter current password"> </div>
+        </div>
+
+        <div>
+          <div class="label-password"> Confirm password </div>
+          <div class="input-field"> <input type="text" placeholder="Enter current password"> </div>
+        </div>
+    </div>
+
+      
+      
+      
+      <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      </script>
+<!--User Info-->
+<!-- 
+      <div class="user-info">
+        <nav>
+          <ul>
+            <li>
+              <button onclick="myFunctiontwo()" class="btn-click"> About </button>
+
+              <div class="basic-information" id="myDIV2" style="display: none;">
+                <div class="item">
+                  <div class="label">
+                    Name
+                  </div>
+      
+                  <div class="value">
+                    Jessica Brown
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="label">
+                    Username
+                  </div>
+      
+                  <div class="value">
+                    jessicaBrown@crowtech
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="label">
+                    Contact Number
+                  </div>
+      
+                  <div class="value2">
+                    985632147
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="label">
+                    Email Address
+                  </div>
+      
+                  <div class="value">
+                    jessicabrown@crowtech.com
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="label">
+                    Company
+                  </div>
+      
+                  <div class="value2">
+                    Crow Technologies
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="label">
+                    Job Title
+                  </div>
+      
+                  <div class="value2">
+                    Support officer
+                  </div>
+                </div>
+                
+              </div>
+            </li>
+
+            <li>
+              <button onclick="myFunction()" class="btn-noclick" >Security </button>
+              <div class="section-password" id="myDIV" style="display: none;"> 
+                <div class="box-input">
+                  <div class="label-password"> Current password </div>
+                  <div class="input-field"> <input type="text" placeholder="Enter current password"> </div>
+                </div>
+    
+                <div class="box-input">
+                  <div class="label-password"> New password </div>
+                  <div class="input-field"> <input type="text" placeholder="Enter new password"> </div>
+                </div>
+    
+                <div>
+                  <div class="label-password"> Confirm password </div>
+                  <div class="input-field"> <input type="text" placeholder="Confirm password"> </div>
+                </div>
+            </div>
+            </li>
+          </ul>
+        </nav>
+
+        
+
+       
+        
+      </div>
+    </div>
+  </section>
+
+<!-- 
+<script>
+  var x;
+  var y;
+  
+  function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+      }
+    }
+</script>
+
+<script>
+  function myFunctiontwo() {
+    var x = document.getElementById('myDIV2');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+      }
+    }
+</script>
+-->
+
+</section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
